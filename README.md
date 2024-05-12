@@ -1,5 +1,5 @@
 # Card-Game
-Juego memoria sencillo desarrollado utilizando JavaScript, HTML y CSS.
+Juego de memoria sencillo desarrollado utilizando JavaScript, HTML y CSS.
 
 ![game-card1](https://github.com/Lara-art/Card-Game/assets/62111495/9b2ef8d4-9695-46ce-bd52-4d4310780e21)
 
