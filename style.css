@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+:root{
+    --color-background:#80512F;
+    --color-container:#BF9577;
+    --color-card:#5BA3AA;
+    --color-card-backgrpund:#FFF5ED;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--color-background);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+h1{
+font-family: "Poetsen One", "sans-serif";
+font-size: clamp(1rem, 0.6479rem + 1.5023vw, 2rem);
+}
+
+button{
+    display: block;
+}
+
+.container{
+    max-width: 1100px;
+    padding: 4rem;
+}
