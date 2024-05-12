@@ -7,15 +7,29 @@
     <link rel="stylesheet" href="style.css">
     <title>Card-Game</title>
     <meta name="author" content="Lara Mesa Cubas">
-    <meta name="description" content="Juego de cartas de memoria desarrollado utilizando tecnologías web como JavaScript, HTML y CSS. Adaptado a diferentes dispositivos, gracias a su diseño responsive. Ya sea que juegues en un ordenador de escritorio, una tableta o un teléfono móvil, la experiencia de juego será óptima y fácil de disfrutar en cualquier pantalla.">
+    <meta name="description"
+        content="Juego de cartas de memoria desarrollado utilizando tecnologías web como JavaScript, HTML y CSS. Adaptado a diferentes dispositivos, gracias a su diseño responsive. Ya sea que juegues en un ordenador de escritorio, una tableta o un teléfono móvil, la experiencia de juego será óptima y fácil de disfrutar en cualquier pantalla.">
 
 </head>
 
-<body>
-<div class="container">
-    <h1>Memory Card</h1>
-    
-</div>
+<body class="flex">
+    <div class="container flex">
+        <h1>Memory Card</h1>
+        <div class="card">
+        </div>
+        <button class="my20" onclick="window.location.reload()">Reset Game</button>
+    </div>
 </body>
+
+<script>
+    const emojis = ["🐶","🐶","🐸","🐸","🦓","🦓","🦝","🦝","🐹","🐹","🐮","🐮","🦊","🦊","🐰","🐰"];
+    var combinacion_emojis=emojis.sort(() => (Math.random() > .5) ? 2 : -1);
+    for (var i=0; i<emojis.length; i++){
+        let box= document.createElement('div')
+        box.className = 'item';
+        box.innerHTML = combinacion_emojis[i]
+        document.querySelector('.card').appendChild(box);
+    }
+</script>
 
 </html>

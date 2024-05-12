@@ -1,41 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-:root{
-    --color-background:#80512F;
-    --color-container:#BF9577;
-    --color-card:#5BA3AA;
-    --color-card-backgrpund:#FFF5ED;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --color-background: #655370;
+    --color-container: #F5DBD3;
+    --color-letter: rgb(37, 37, 37);
+    --color-card: #D3F5EC;
+    --color-card-background: #de89a9;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     font-size: 16px;
     background-color: var(--color-background);
+    min-height: 100vh;
+    color: var(--color-letter);
+    font-family: "Bebas Neue", "sans-serif";
 }
 
-img{
+img {
     width: 100%;
     display: block;
 }
 
-h1{
-font-family: "Poetsen One", "sans-serif";
-font-size: clamp(1rem, 0.6479rem + 1.5023vw, 2rem);
+h1 {
+    letter-spacing: 1.5px;
+    font-size: clamp(1rem, -0.0563rem + 4.5070vw, 4rem);
 }
 
-button{
+button {
     display: block;
+    border: none;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Bebas Neue", "sans-serif";
+    font-size: clamp(1rem, 0.6479rem + 1.5023vw, 2rem);
+    letter-spacing: 1.5px;
+    background-color: var(--color-card-background);
 }
 
-.container{
+button:focus {
+    background-color: var(--color-background);
+    color: var(--color-card-background);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container {
     max-width: 1100px;
-    padding: 4rem;
+    padding: 4rem 6rem;
+    background-color: var(--color-container);
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width:360px;
+    height: 360px;
+    gap: 1rem;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.my20 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
