@@ -3,8 +3,8 @@ var asignar_emojis = emojis.sort(() => (Math.random() > .2) ? 1 : -1);
 var bocaArriba = [];
 
 function verificarVictoria() {
-if (document.querySelectorAll('.boxMatch').length === emojis.length) {
-alert('¡Felicidades! ¡Has ganado el juego!');
+    if (document.querySelectorAll('.boxMatch').length === emojis.length) {
+        alert('¡Felicidades! ¡Has ganado el juego!');
     }
 }
 
@@ -16,6 +16,9 @@ for (var i = 0; i < emojis.length; i++) {
     box.onclick = function () {
         this.classList.add('boxOpen');
         bocaArriba.push(this);
+        var audio = document.getElementById("flipcard");
+        audio.volume = 0.3;
+        audio.play();
 
         if (bocaArriba.length === 2) {
             setTimeout(function () {
