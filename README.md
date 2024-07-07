@@ -1,6 +1,8 @@
 # Card-Game
 Juego de memoria sencillo desarrollado utilizando JavaScript, HTML y CSS.
 
+Está subido en este directorio como ejemplo: <a href="https://formanet.net/web/laram/extras/Card-Game/">Card Game</a>
+
 Tendrás que combinar el mismo emoji dos veces, si lo consigues se quedarán en pantalla visibles hasta el final de la partida. 
 
 Se terminará la partida cuando consigas encontrar todas las parejas de emojis.
