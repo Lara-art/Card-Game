@@ -11,6 +11,6 @@ Para que cada partida sea diferente existe el botón de reset, el cual cambia la
 <a href="https://lara-art.github.io/Card-Game/">Card Game</a>
 
 <div>
-    <img src="https://github.com/Lara-art/Card-Game/blob/main/assets/preview/Card_Game1.png" alt="Game Card" style="width: 49%; max-width:505px; height: auto; margin: 10px;">
-    <img src="https://github.com/Lara-art/Card-Game/blob/main/assets/preview/Card_Game2.png" alt="Game Card" style="width: 49%; max-width:505px; height: auto; margin: 10px;">
+    <img src="https://github.com/Lara-art/Card-Game/blob/main/assets/preview/Card_Game1.png" alt="Game Card" style="width: 49%; max-width:505px; height: auto;">
+    <img src="https://github.com/Lara-art/Card-Game/blob/main/assets/preview/Card_Game2.png" alt="Game Card" style="width: 49%; max-width:505px; height: auto;">
 </div>
