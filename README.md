@@ -10,16 +10,7 @@ Para que cada partida sea diferente existe el botón de reset, el cual cambia la
 **¿Quieres probarlo?**<br>
 <a href="https://lara-art.github.io/Card-Game/">Card Game</a>
 
-
-<img src="https://github.com/Lara-art/Card-Game/assets/62111495/9b2ef8d4-9695-46ce-bd52-4d4310780e21" alt="Game Card" style="max-width: 200px; height: auto;">
-<img src="https://github.com/Lara-art/Card-Game/assets/62111495/85970d41-e626-4e87-99d6-92bfa1581f52" alt="Game Card" style="max-width: 200px; height: auto;">
-<table>
-  <tr>
-    <td style="width: 50%; text-align: center;">
-      <img src="https://github.com/Lara-art/Card-Game/assets/62111495/9b2ef8d4-9695-46ce-bd52-4d4310780e21" alt="Game Card" style="max-width: 100%; height: auto;">
-    </td>
-    <td style="width: 50%; text-align: center;">
-      <img src="https://github.com/Lara-art/Card-Game/assets/62111495/85970d41-e626-4e87-99d6-92bfa1581f52" alt="Game Card" style="max-width: 100%; height: auto;">
-    </td>
-  </tr>
-</table>
+<div>
+    <img src="https://github.com/Lara-art/Card-Game/blob/main/assets/preview/Card_Game1.png" alt="Game Card" style="width: 49%; max-width:505px; height: auto; margin: 10px;">
+    <img src="https://github.com/Lara-art/Card-Game/blob/main/assets/preview/Card_Game2.png" alt="Game Card" style="width: 49%; max-width:505px; height: auto; margin: 10px;">
+</div>
